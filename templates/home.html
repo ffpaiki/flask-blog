@@ -1,0 +1,8 @@
+{% extends 'layout.html' %}
+
+{% block content %}
+    {% for news_item in data %}
+        <h1>{{ news_item.title }}</h1>
+        <h4>{{ news_item.author }}</h4>
+    {% endfor %}
+{% endblock %}

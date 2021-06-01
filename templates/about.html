@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    {% if title %}
+        <title>MyBlog - {{ title }} {{ title2 }}</title>
+    {% else %}
+        <title>MyBlog</title>
+    {% endif %}
+</head>
+<body>
+    <h1>This is about page using template</h1>
+
+    {% for get_flashed_message in ea %}
+    
+    {% endfor %}
+    
+</body>
+</html>
